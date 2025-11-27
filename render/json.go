@@ -11,8 +11,8 @@ import (
 	"net/http"
 	"unicode"
 
-	"github.com/gin-gonic/gin/codec/json"
-	"github.com/gin-gonic/gin/internal/bytesconv"
+	"github.com/xiaohangshuhub/gin/codec/json"
+	"github.com/xiaohangshuhub/gin/internal/bytesconv"
 )
 
 // JSON contains the given interface object.

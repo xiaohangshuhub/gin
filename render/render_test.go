@@ -15,8 +15,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gin-gonic/gin/codec/json"
-	testdata "github.com/gin-gonic/gin/testdata/protoexample"
+	"github.com/xiaohangshuhub/gin/codec/json"
+	testdata "github.com/xiaohangshuhub/gin/testdata/protoexample"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/proto"

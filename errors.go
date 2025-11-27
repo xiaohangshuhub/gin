@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/gin-gonic/gin/codec/json"
+	"github.com/xiaohangshuhub/gin/codec/json"
 )
 
 // ErrorType is an unsigned 64-bit error code as defined in the gin spec.
