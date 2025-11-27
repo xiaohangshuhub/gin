@@ -23,8 +23,8 @@ import (
 	"time"
 
 	"github.com/gin-contrib/sse"
-	"github.com/xiaohangshuhub/gin/binding"
-	"github.com/xiaohangshuhub/gin/render"
+	"github.com/gin-gonic/gin/binding"
+	"github.com/gin-gonic/gin/render"
 )
 
 // Content-Type MIME of the most common data formats.

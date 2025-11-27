@@ -2,14 +2,14 @@
 
 <img align="right" width="159px" src="https://raw.githubusercontent.com/gin-gonic/logo/master/color.png">
 
-[![Build Status](https://github.com/xiaohangshuhub/gin/actions/workflows/gin.yml/badge.svg?branch=master)](https://github.com/xiaohangshuhub/gin/actions/workflows/gin.yml)
-[![Trivy Security Scan](https://github.com/xiaohangshuhub/gin/actions/workflows/trivy-scan.yml/badge.svg)](https://github.com/xiaohangshuhub/gin/actions/workflows/trivy-scan.yml)
+[![Build Status](https://github.com/gin-gonic/gin/actions/workflows/gin.yml/badge.svg?branch=master)](https://github.com/gin-gonic/gin/actions/workflows/gin.yml)
+[![Trivy Security Scan](https://github.com/gin-gonic/gin/actions/workflows/trivy-scan.yml/badge.svg)](https://github.com/gin-gonic/gin/actions/workflows/trivy-scan.yml)
 [![codecov](https://codecov.io/gh/gin-gonic/gin/branch/master/graph/badge.svg)](https://codecov.io/gh/gin-gonic/gin)
-[![Go Report Card](https://goreportcard.com/badge/github.com/xiaohangshuhub/gin)](https://goreportcard.com/report/github.com/xiaohangshuhub/gin)
-[![Go Reference](https://pkg.go.dev/badge/github.com/xiaohangshuhub/gin?status.svg)](https://pkg.go.dev/github.com/xiaohangshuhub/gin?tab=doc)
-[![Sourcegraph](https://sourcegraph.com/github.com/xiaohangshuhub/gin/-/badge.svg)](https://sourcegraph.com/github.com/xiaohangshuhub/gin?badge)
+[![Go Report Card](https://goreportcard.com/badge/github.com/gin-gonic/gin)](https://goreportcard.com/report/github.com/gin-gonic/gin)
+[![Go Reference](https://pkg.go.dev/badge/github.com/gin-gonic/gin?status.svg)](https://pkg.go.dev/github.com/gin-gonic/gin?tab=doc)
+[![Sourcegraph](https://sourcegraph.com/github.com/gin-gonic/gin/-/badge.svg)](https://sourcegraph.com/github.com/gin-gonic/gin?badge)
 [![Open Source Helpers](https://www.codetriage.com/gin-gonic/gin/badges/users.svg)](https://www.codetriage.com/gin-gonic/gin)
-[![Release](https://img.shields.io/github/release/gin-gonic/gin.svg?style=flat-square)](https://github.com/xiaohangshuhub/gin/releases)
+[![Release](https://img.shields.io/github/release/gin-gonic/gin.svg?style=flat-square)](https://github.com/gin-gonic/gin/releases)
 
 ## 📰 [Announcing Gin 1.11.0!](https://gin-gonic.com/en/blog/news/gin-1-11-0-release-announcement/)
 
@@ -52,7 +52,7 @@ Gin combines the simplicity of Express.js-style routing with Go's performance ch
 With [Go's module support](https://go.dev/wiki/Modules#how-to-use-modules), simply import Gin in your code and Go will automatically fetch it during build:
 
 ```go
-import "github.com/xiaohangshuhub/gin"
+import "github.com/gin-gonic/gin"
 ```
 
 ### Your First Gin Application
@@ -66,7 +66,7 @@ import (
   "log"
   "net/http"
 
-  "github.com/xiaohangshuhub/gin"
+  "github.com/gin-gonic/gin"
 )
 
 func main() {
@@ -126,7 +126,7 @@ After running your first Gin application, explore these resources to learn more:
 
 ### API Reference
 
-- **[Go.dev API Documentation](https://pkg.go.dev/github.com/xiaohangshuhub/gin)** - Complete API reference with examples
+- **[Go.dev API Documentation](https://pkg.go.dev/github.com/gin-gonic/gin)** - Complete API reference with examples
 
 ### User Guides
 

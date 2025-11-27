@@ -1,4 +1,4 @@
-module github.com/xiaohangshuhub/gin
+module github.com/gin-gonic/gin
 
 go 1.24.0
 

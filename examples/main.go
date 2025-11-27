@@ -1,6 +1,6 @@
 package main
 
-import "github.com/xiaohangshuhub/gin"
+import "github.com/gin-gonic/gin"
 
 func main() {
 

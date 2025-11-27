@@ -18,7 +18,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xiaohangshuhub/gin/internal/bytesconv"
+	"github.com/gin-gonic/gin/internal/bytesconv"
 )
 
 const dunno = "???"

@@ -8,7 +8,7 @@ import (
 	"html/template"
 	"net/http"
 
-	"github.com/xiaohangshuhub/gin/internal/fs"
+	"github.com/gin-gonic/gin/internal/fs"
 )
 
 // Delims represents a set of Left and Right delimiters for HTML template rendering.

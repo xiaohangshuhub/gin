@@ -11,7 +11,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/xiaohangshuhub/gin/internal/bytesconv"
+	"github.com/gin-gonic/gin/internal/bytesconv"
 )
 
 // Param is a single URL parameter, consisting of a key and a value.

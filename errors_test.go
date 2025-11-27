@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/xiaohangshuhub/gin/codec/json"
+	"github.com/gin-gonic/gin/codec/json"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

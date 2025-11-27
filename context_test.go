@@ -27,9 +27,9 @@ import (
 	"time"
 
 	"github.com/gin-contrib/sse"
-	"github.com/xiaohangshuhub/gin/binding"
-	"github.com/xiaohangshuhub/gin/codec/json"
-	testdata "github.com/xiaohangshuhub/gin/testdata/protoexample"
+	"github.com/gin-gonic/gin/binding"
+	"github.com/gin-gonic/gin/codec/json"
+	testdata "github.com/gin-gonic/gin/testdata/protoexample"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/proto"
@@ -675,7 +675,7 @@ func TestContextHandlerName(t *testing.T) {
 	c, _ := CreateTestContext(httptest.NewRecorder())
 	c.handlers = HandlersChain{func(c *Context) {}, handlerNameTest}
 
-	assert.Regexp(t, "^(.*/vendor/)?github.com/xiaohangshuhub/gin.handlerNameTest$", c.HandlerName())
+	assert.Regexp(t, "^(.*/vendor/)?github.com/gin-gonic/gin.handlerNameTest$", c.HandlerName())
 }
 
 func TestContextHandlerNames(t *testing.T) {
@@ -742,7 +742,7 @@ func TestContextQuery(t *testing.T) {
 }
 
 func TestContextInitQueryCache(t *testing.T) {
-	validURL, err := url.Parse("https://github.com/xiaohangshuhub/gin/pull/3969?key=value&otherkey=othervalue")
+	validURL, err := url.Parse("https://github.com/gin-gonic/gin/pull/3969?key=value&otherkey=othervalue")
 	require.NoError(t, err)
 
 	tests := []struct {
